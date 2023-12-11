@@ -1,6 +1,9 @@
 /* Text Formatting */
 p {
     color: lightgray;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    
 }
 main h1 {
     margin-top: 1em;
