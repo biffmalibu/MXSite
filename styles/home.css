@@ -25,16 +25,23 @@ main h1 {
     font-family: 'Staatliches', cursive;
     color: white;
 }
-
+#img1 {
+    border: 3px solid green;
+    border-radius: 5px;
+}
+#img2 {
+    border: 3px solid white;
+    border-radius: 5px;
+}
+#img3 {
+    border: 3px solid red;
+    border-radius: 5px;
+}
 .item h2 {
     padding-top: 15px;
 }
 
-/* Image formatting */
-main img {
-    border: 3px solid lightgray;
-    border-radius: 5px;
-}
+
 
 /* Media queries */
 @media only screen and (max-width: 1400px) {
