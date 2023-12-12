@@ -22,45 +22,21 @@ main h1 {
 .item {
     flex-basis: 20%;   
 }
-
-/* Aside Tags */
-aside {
-    width: 40%;
-    float: left;
-    
-}
-aside p {
-    font-family: 'Staatliches', cursive;
+#mainp {
+    text-align: center;
 }
 
-/* Section */
-section {
-    width: 55%;
+/* Background container tags */
+.div-container {
+    padding: 5vh 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     float: right;
 }
-
-/* Image container tags */
-.sd-img-container {
-    padding: 5vh 0;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-}
-.image {
-    flex-basis: 30%;
-    padding-bottom: 60px;
-}
-
-/* Text container tags */
-.info-container {
-    padding: 5vh 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 1613px;
-}
-.info-item {
-    flex-basis: 30%;
+.div-item {
+    flex-basis: 20%;
 }
 
 /* List formatting */
