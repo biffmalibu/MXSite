@@ -12,10 +12,15 @@ main h1 {
     color: white;
     text-align: center;
 }
-
+.format {
+    margin-right: 10px;
+    margin-left: 10px;
+}
 /* Image container tags */
 .img-container {
     padding: 5vh 0;
+    margin-right: 10px;
+    margin-left: 10px;
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -68,4 +73,9 @@ main h1 {
         display: none;
     }
     
+}
+@media only screen and (max-width: 450px) {
+    .img-container {
+        max-width: 375px;
+    }
 }
