@@ -26,6 +26,10 @@ main h1 {
     color: white;
 }
 
+.item h2 {
+    padding-top: 15px;
+}
+
 /* Image formatting */
 main img {
     border: 3px solid lightgray;
